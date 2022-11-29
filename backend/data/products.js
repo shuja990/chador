@@ -1,0 +1,87 @@
+const products = [
+  {
+    name: "Plain Silk",
+    image: "/images/scrave.png",
+    description:
+      "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+    brand: "Chaddor",
+    category: "Pashmina",
+    price: 89.99,
+    countInStock: 3,
+    rating: 0,
+    colors:["red","green"],
+    numReviews: 0,
+    featured: true,
+  },
+  {
+    name: "Plain Silk",
+    image: "/images/scrave.png",
+    description:
+      "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+    brand: "Chaddor",
+    category: "Pashmina",
+    colors:["red","blue"],
+    price: 599.99,
+    countInStock: 10,
+    rating: 0,
+    numReviews: 0,
+    featured: true,
+  },
+  {
+    name: "Plain Silk",
+    image: "/images/scrave2.png",
+    description:
+      "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+    brand: "Chaddor",
+    category: "Pashmina",
+    price: 929.99,
+    colors:["red","black"],
+    countInStock: 0,
+    rating: 0,
+    numReviews: 0,
+    featured: true,
+  },
+  {
+    name: "Plain Silk",
+    image: "/images/scrave2.png",
+    description:
+      "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+    brand: "Chaddor",
+    category: "Pashmina",
+    price: 399.99,
+    countInStock: 10,
+    rating: 0,
+    featured: false,
+    numReviews: 0,
+  },
+  {
+    name: "Plain Silk",
+    image: "/images/scrave2.png",
+    description:
+      "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+    brand: "Chaddor",
+    category: "Pashmina",
+    price: 49.99,
+    countInStock: 7,
+    rating: 0,
+    colors:["red","black"],
+    numReviews: 0,
+    featured: false,
+  },
+  {
+    name: "Plain Silk",
+    image: "/images/scrave2.png",
+    description:
+      "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+    brand: "Chaddor",
+    category: "Pashmina",
+    colors:["red","black"],
+    price: 29.99,
+    countInStock: 0,
+    rating: 0,
+    numReviews: 0,
+    featured: false,
+  },
+];
+
+export default products;
