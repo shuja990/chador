@@ -19,6 +19,7 @@ import {
   createProductReview,
 } from "../actions/productActions";
 import { PRODUCT_CREATE_REVIEW_RESET } from "../constants/productConstants";
+import { addToWishlist } from "../actions/userActions";
 
 const ProductScreen = ({ history, match }) => {
   const [qty, setQty] = useState(1);
@@ -153,12 +154,21 @@ const ProductScreen = ({ history, match }) => {
                             height: "30px",
                             marginRight: "5px",
                             width: "30px",
-                            cursor:"pointer",
-                            transform:color===c && "scale(1.2)"
+                            cursor: "pointer",
+                            transform: color === c && "scale(1.2)",
                           }}
                         ></div>
                       ))}
                     </Row>
+                  </ListGroup.Item>
+                  <ListGroup.Item>
+                    <Button
+                      onClick={() => dispatch(addToWishlist(product._id))}
+                      className="btn-block"
+                      type="button"
+                    >
+                      Add To Wishlist
+                    </Button>
                   </ListGroup.Item>
                   <ListGroup.Item>
                     <Button

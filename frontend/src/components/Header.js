@@ -26,12 +26,20 @@ const Header = () => {
       >
         <Container>
           <LinkContainer to="/">
-            <Navbar.Brand>ProShop</Navbar.Brand>
+            <Navbar.Brand>
+              <img src={require("./logo.png")} width="100px" />
+            </Navbar.Brand>
           </LinkContainer>
           <Navbar.Toggle aria-controls="basic-navbar-nav" />
           <Navbar.Collapse id="basic-navbar-nav">
             <Route render={({ history }) => <SearchBox history={history} />} />
             <Nav className="ml-auto">
+              <LinkContainer to="/wishlist">
+                <Nav.Link style={{ color: "black" }}>Wishlist</Nav.Link>
+              </LinkContainer>
+              <LinkContainer to="/about-us">
+                <Nav.Link style={{ color: "black" }}>About Us</Nav.Link>
+              </LinkContainer>
               <LinkContainer to="/cart">
                 <Nav.Link style={{ color: "black" }}>
                   <i
